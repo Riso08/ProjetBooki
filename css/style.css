@@ -1,5 +1,6 @@
 /****** General ***********/
-* {
+* 
+{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -29,6 +30,7 @@ body {
 }
 
 /*******Header******/
+
 header{
     width: 100%;
     height: 100px;
@@ -73,6 +75,7 @@ header{
 /*******Recherches, flitres et infos*******/
 
 /*******Barre de recherches*******/
+
 .My-form{
     display: flex;
     display: inline-flex;
@@ -113,11 +116,13 @@ header{
     font-weight: bold;
 }
 /*******Icone pour le responsive smartphone*******/
+
 .iconsearch {
     display: none;
 }
 
 /*******Filtres-navigation*******/
+
 .Filtres-navigation{
     display: flex;
     align-items: center; 
@@ -168,6 +173,7 @@ header{
 }
 
 /****** Berre d'information ***********/
+
 .informations{
     display: flex;
     margin-bottom: 30px;
@@ -186,6 +192,7 @@ header{
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -211,6 +218,7 @@ header{
 }
 
 /****** Hebergements And Populaires cards ***********/
+
 .card {
     background-color: white;
     border-radius: 20px;
@@ -319,6 +327,7 @@ header{
     margin-bottom: 10px;
 }
 /*******Activités*******/
+
 .Activités{
     margin-top: 60px;
 }
@@ -359,6 +368,7 @@ header{
 }
 
 /*******Footer*******/
+
 .footer{
     display: flex;
     background-color: var(--main-bg-color);
@@ -380,11 +390,14 @@ header{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media all and (max-width: 1024px) {
-/****** Tablet général***********/   
+
+/****** Tablet général***********/
+
     .main-container{
         width: 95%;
         margin: auto;
     }
+
 /****** Tablet header - haut de page***********/    
     
     .logo{
@@ -474,6 +487,7 @@ header{
 
 /* Small devices (phones, less than 768px) */
 @media all and (max-width: 767.98px) {
+
 /***** Général *****/
     
     .main-container{
@@ -522,6 +536,7 @@ header{
         border-top: none;
         border-bottom: 2px solid var(--main-color);
     }
+
 /***** Barre de recherche *****/
 
     .Recherches-Filtres{
@@ -555,6 +570,7 @@ header{
     .iconsearch i{
         color: white;
     }
+    
 /***** Filtres - navigation*****/
 
     .Filtres-navigation{
