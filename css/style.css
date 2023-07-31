@@ -46,30 +46,31 @@ header{
 }
 
 .Navigation-hébergements-Activités{
-    margin-top: -57px;
+    margin-top: -69px;
 }
 
-.activites-link{
-    color: black;
+.Navigation-hébergements-Activités ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Navigation-hébergements-Activités ul li a{
     text-decoration: none;
-    padding-top: 10px;
-    margin-left: 30px;
-}
-
-.activites-link:hover {
-    color: var(--main-color);
-    border-top: 2px solid var(--main-color);
-}
-
-.hebergement-link{
-    color: black;
-    text-decoration: none;
+    color: #000000;
+    margin:10px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 10px;
 }
 
-.hebergement-link:hover{
-    color: var(--main-color);
+.Navigation-hébergements-Activités ul li a:hover{
     border-top: 2px solid var(--main-color);
+    color: var(--main-color);
 }
 
 /*******Recherches, flitres et infos*******/
@@ -330,6 +331,9 @@ header{
 
 .Activités{
     margin-top: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .articles-title{
@@ -340,7 +344,6 @@ header{
 .articles{
     display: flex;
     justify-content: center;
-    margin-left: 30px;
 }
 
 .card-articles{
@@ -349,7 +352,7 @@ header{
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1));
     height: 450px;
     width:  25%;
-    margin: 0px 30px 0px 0px;
+    margin: 10px;
 }
 
 .card-articles img{
@@ -488,7 +491,7 @@ header{
 /* Small devices (phones, less than 768px) */
 @media all and (max-width: 767.98px) {
 
-/***** Général *****/
+/*****Smartphone Général *****/
     
     .main-container{
         width: 100%;
@@ -496,7 +499,7 @@ header{
         flex-direction: column;
     }
 
-/***** Header - haut de page *****/
+/*****Smartphone Header - haut de page *****/
 
     header {
         flex-direction: column;
@@ -507,37 +510,34 @@ header{
     .logo{
         width: 20%;
         margin-top: 50px;
+        margin-left: 0;
     }
-
     .Navigation-hébergements-Activités{
         margin-top: 15px;
-        display: flex;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         width: 100%;
-        justify-content: space-around;
+        align-items: center;
+        display: flex;
     }
-    
-    .hebergement-link{
-        margin-left: 20px;
+    .Navigation-hébergements-Activités ul {
+        width: 100%;
+        padding: 0;
+        margin-left: -10px;
     }
-    
-    .hebergement-link:hover{
+    .Navigation-hébergements-Activités ul li{
+        width: 50%;
+    }
+    .Navigation-hébergements-Activités ul li a{
+        width: 100%;
+        border-bottom: 0.2rem solid var(--main-bg-color);
+        padding-bottom: 20px;
+    }
+    .Navigation-hébergements-Activités ul li a:hover{
         border-top: none;
         border-bottom: 2px solid var(--main-color);
-        padding-bottom: 30px;
-    }
 
-    .activites-link {
-        margin-right: 40px;
     }
-
-    .activites-link:hover{
-        padding-bottom: 30px;
-        border-top: none;
-        border-bottom: 2px solid var(--main-color);
-    }
-
-/***** Barre de recherche *****/
+/*****Smartphone Barre de recherche *****/
 
     .Recherches-Filtres{
         margin-top: 40px;
@@ -571,7 +571,7 @@ header{
         color: white;
     }
     
-/***** Filtres - navigation*****/
+/*****Smartphone Filtres - navigation*****/
 
     .Filtres-navigation{
         display: flex;
@@ -687,13 +687,13 @@ header{
 
     .Activités{
         margin-top: 900px;
-        width: 100%;
+        width: 95%;
     }
 
     .articles{
         display: flex;
         flex-direction: column;
-        width: 85%;
+        width: 100%;
         margin-top: 430px;
     }
 
