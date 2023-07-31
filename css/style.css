@@ -509,12 +509,12 @@ header{
 
     .logo{
         width: 20%;
-        margin-top: 50px;
+        margin-top: 70px;
         margin-left: 0;
+        margin-bottom: -10px;
     }
     .Navigation-hébergements-Activités{
-        margin-top: 15px;
-        margin-bottom: 10px;
+        margin-top: 0;
         width: 100%;
         align-items: center;
         display: flex;
@@ -540,7 +540,7 @@ header{
 /*****Smartphone Barre de recherche *****/
 
     .Recherches-Filtres{
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .My-form{
