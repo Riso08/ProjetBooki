@@ -123,7 +123,10 @@ header{
 }
 
 /*******Filtres-navigation*******/
-
+.filtre-conteneur{
+    display: flex;
+    align-items: center;
+}
 .Filtres-navigation{
     display: flex;
     align-items: center; 
